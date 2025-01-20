@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+}
+
+/* shared styles */
+
+
+/* navbar styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1160px;
+    margin: 20px auto;
+}
+.nav-container, nav ul{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+nav ul{
+    list-style: none;
+    gap: 32px;
+}
+nav ul a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.nav-container h3{
+    font-weight: bold;
+    font-size: 32px;
+}
+nav button{
+    padding: 10px 60px;
+    background-color: #FEA301;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+#home{
+    color: orange;
+}
+#about{
+    color: skyblue;
+}
+#facilities{
+    color: #05D4DF;
+}
+#admission{
+    color: #5D58EF;
+}
