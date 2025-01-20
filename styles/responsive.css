@@ -1,0 +1,21 @@
+/* Responsive styles */
+
+@media screen and (max-width: 576px) {
+    .banner, main{
+        padding: auto 5%;
+    }
+
+
+    /* navbar */
+    nav{
+        border: 1px solid orange;
+        margin: 0;
+        padding: 20px 5%;
+    }
+    nav h3, nav ul, nav button{
+        display: none;
+    }
+    .hamburger{
+        display: inline;
+    }
+}

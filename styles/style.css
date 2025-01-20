@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+header, main{
+    max-width: 1160px;
+    margin: 0 auto;
+}
 .quicksand-normal {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -18,7 +21,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1160px;
     margin: 20px auto;
 }
 .nav-container, nav ul{
@@ -61,3 +63,9 @@ nav button{
 #admission{
     color: #5D58EF;
 }
+
+.hamburger{
+    display: none;
+}
+
+
