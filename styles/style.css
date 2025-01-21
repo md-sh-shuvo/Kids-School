@@ -14,7 +14,16 @@ header, main{
 }
 
 /* shared styles */
-
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
 
 /* navbar styles */
 nav{
@@ -41,7 +50,7 @@ nav ul a{
     font-weight: bold;
     font-size: 32px;
 }
-nav button{
+nav button, .banner button{
     padding: 10px 60px;
     background-color: #FEA301;
     color: white;
@@ -69,3 +78,21 @@ nav button{
 }
 
 
+
+/* banner styles */
+.banner-content{
+    gap: 24px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 56px;
+}
+.banner-description{
+    font-weight: normal;
+    font-size: 20px;
+}
+.banner button{
+    font-weight: bold;
+    background-color: black;
+    padding: 10px 47px;
+}
