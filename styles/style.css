@@ -33,6 +33,9 @@ header, .sections-container, .section-2-container, .footer-sections{
     align-items: center;
 }
 
+.bg-color{
+    background-color: #F7F7F7;
+}
 /* navbar styles */
 nav{
     display: flex;
@@ -69,6 +72,7 @@ nav button, .banner button, .section-2 button{
 }
 
 #home{
+    font-weight: bold;
     color: orange;
 }
 #about{
@@ -85,6 +89,10 @@ nav button, .banner button, .section-2 button{
     display: none;
 }
 
+.merquee{
+    max-width: 70%;
+    margin: 0 auto;
+}
 
 
 /* banner styles */

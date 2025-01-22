@@ -19,6 +19,9 @@
         display: inline;
     }
 
+    .merquee{
+        max-width: 90%;
+    }
 
     /* banner */
     .banner{
