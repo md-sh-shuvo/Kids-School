@@ -105,6 +105,11 @@ nav button, .banner button{
     background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
 }
+.section-1-title{
+    display: none;
+    font-weight: bold;
+    font-size: 26px;
+}
 .sections-container{
     padding-top: 180px;
     padding-bottom: 80px;
@@ -122,6 +127,8 @@ nav button, .banner button{
     font-weight: 500;
     font-size: 16px;
     color: #808080;
+    line-height: 28px;
+    width: 72%;
 }
 .cards a{
     text-decoration: none;
