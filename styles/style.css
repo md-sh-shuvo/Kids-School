@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-header, .sections-container, .section-2-container{
+a{
+    text-decoration: none;
+    color: white;
+}
+header, .sections-container, .section-2-container, .footer-sections{
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -182,7 +186,7 @@ nav button, .banner button, .section-2 button{
 
 /* section 2 - Our stories */
 .section-2{
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 30%, rgba(254, 163, 1, 0.3)),url(../assets/bg.png);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 20%, rgba(254, 163, 1, 0.3)),url(../assets/bg.png);
     text-align: center;
 }
 .section-2-title{
@@ -202,7 +206,7 @@ nav button, .banner button, .section-2 button{
     border-radius: 47px;
     padding: 16px ;
     position: absolute;
-    top: 320px;
+    top: 322px;
     margin-left: 36px;
 }
 .date-2{
@@ -215,6 +219,9 @@ nav button, .banner button, .section-2 button{
     position: absolute;
     top: 150px;
     margin-left: 36px;
+}
+.box-4 .date-2, .box-5 .date-2{
+    top: 155px;
 }
 .boxs{
     display: grid;
@@ -271,4 +278,60 @@ nav button, .banner button, .section-2 button{
 
 .box-extra{
     display: none;
+}
+
+
+
+/* footer styles */
+footer{
+    background-color: #01ACFD;
+    color: white;
+    border: 1px solid #01ACFD;
+}
+.footer-sections{
+    margin: 124px auto 174px auto;
+    justify-content: space-between;
+}
+.footer-section-1{
+    max-width: 35%;
+}
+.footer-section-1 img{
+    margin-left: -5px;
+}
+.ftr-sec-1-title{
+    gap: 10px;
+}
+.ftr-sec-1-title h1{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 40px;
+}
+.ftr-sec-1-description{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 35px;
+}
+footer li{
+    list-style: none;
+}
+.footer-section-2 h3{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.footer-section-2 ul{
+    gap: 20px;
+}
+.footer-section-2 a{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-section-3 h3{
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+.footer-logos{
+    gap: 10px;
 }

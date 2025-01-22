@@ -107,6 +107,12 @@
         margin-left: 22px;
         top: 90px;
     }
+    .box-2 .date-2, .box-3 .date-2{
+        top: 88px;
+    }
+    .box-4 .date-2, .box-5 .date-2{
+        top: 90px;
+    }
     .child-box-content h3{
         font-size: 9px;
         line-height: 17px;
